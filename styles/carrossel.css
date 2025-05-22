@@ -99,6 +99,10 @@
         height: 5em;
     }
 
+    .swiper-slide img:hover {
+    border: 2px solid var(--vermelho-realce);
+}
+
     .carrossel__container {
         width: auto;
         margin: 0.5em;
