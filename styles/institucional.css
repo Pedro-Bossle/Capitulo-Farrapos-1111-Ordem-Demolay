@@ -1,0 +1,117 @@
+.instituicao {
+    margin: 8em 7em 8em 7em;
+    background-color: var(--fundo-branco);
+    padding: 0 3em 4em 3em;
+    border-radius: 10px;
+    border: 4px solid var(--cinza);
+}
+
+.capitulo__titulo {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--fundo-branco);
+    text-align: center;
+    padding: 1.5em 0 1em 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--vermelho-realce);
+}
+
+.instituicao__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instituicao__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 1em 0 1em 0;
+}
+
+.instituicao__container__texto {
+    line-height: 1.5em;
+    text-indent: 1em;
+    margin-top: 0.2em;
+}
+
+.instituicao__container__logo {
+    height: 100%;
+    width: 40%;
+}
+
+.ordem__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ordem__saiba-mais {
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid var(--preto-fonte);
+    text-decoration: none;
+    color: var(--preto-fonte);
+    border-radius: 10px;
+}
+
+.ordem__saiba-mais2 {
+    display: none;
+}
+
+
+
+.ordem__saiba-mais:hover {
+    color: var(--vermelho-realce);
+    font-weight: 700;
+    border: 1px var(--vermelho-realce) solid;
+
+}
+
+@media screen and (max-width: 768px) {
+    .instituicao {
+        width: auto;
+        margin: auto 0;
+        padding: 0.5em;
+    }
+
+    .instituicao__container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0.5em;
+    }
+
+    .capitulo__titulo {
+        font-size: 20px;
+    }
+
+    .instituicao__titulo {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .instituicao__container__texto {
+        font-size: 14px;
+    }
+
+    .ordem__saiba-mais {
+        display: none;
+    }
+
+    .ordem__saiba-mais2 {
+        display: block;
+        text-align: center;
+        padding: 0.5em;
+        margin: 1em;
+        border: 1px solid var(--preto-fonte);
+        text-decoration: none;
+        color: var(--preto-fonte);
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+
+}
