@@ -17,6 +17,12 @@
     color: var(--vermelho-realce);
 }
 
+.instituicao__container__inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .instituicao__container {
     display: flex;
     justify-content: space-around;
@@ -34,6 +40,7 @@
     line-height: 1.5em;
     text-indent: 1em;
     margin-top: 0.2em;
+    margin-bottom: 1.5em;
 }
 
 .instituicao__container__logo {
@@ -57,11 +64,23 @@
     border-radius: 10px;
 }
 
+.galeria__gestoes {
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    border: 1px solid var(--preto-fonte);
+    text-decoration: none;
+    color: var(--preto-fonte);
+    border-radius: 10px;
+}
+
+
 .ordem__saiba-mais2 {
     display: none;
 }
 
-.ordem__saiba-mais:hover {
+.ordem__saiba-mais:hover,
+.galeria__gestoes:hover {
     color: var(--vermelho-realce);
     font-weight: 700;
     border: 1px var(--vermelho-realce) solid;
