@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url(../styles/reset.css);
+@import url(../styles/header.css);
+@import url(../styles/banner.css);
+@import url(../styles/carrossel.css);
+@import url(../styles/institucional.css);
+@import url(../styles/Ordemdemolay.css);
+@import url(../styles/howto.css);
+@import url(../styles/localizacao.css);
+@import url(../styles/FAQ.css);
+@import url(../styles/rodape.css);
+
+
+:root {
+    /*Cores*/
+    --fundo-branco-gelo: #f2f2f2;
+    --fundo-branco: #ffffff;
+    --preto-fonte: #000000;
+    --vermelho-realce: #c00101;
+    --cinza: #7473733a;
+    --cinza-descricao: #747373;
+    --cinza-footer: #d4d4d4;
+    --cinza-branco: #e3e3e3;
+
+    /*Fontes*/
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Ancizar Serif";
+    --fonte-terciaria: "Playfair Display";
+}
+
+body {
+    background-color: var(--fundo-branco-gelo);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 400;
+    contain: content;
+
+}

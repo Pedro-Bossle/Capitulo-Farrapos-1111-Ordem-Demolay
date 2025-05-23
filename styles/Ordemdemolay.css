@@ -1,0 +1,204 @@
+/*Estrutura*/
+.instituicao {
+    margin: 8em 7em 8em 7em;
+    background-color: var(--fundo-branco);
+    padding: 0 3em 4em 3em;
+    border-radius: 10px;
+    border: 4px solid var(--cinza);
+}
+
+.ordem-demolay__historia {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.ordem__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.virtudes__lista,
+.baluartes__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao__voltar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ordem__voltar-inicio {
+    text-align: center;
+    margin: 3em 0 4em 0;
+    padding: 1em;
+    border: 1px solid var(--preto-fonte);
+    text-decoration: none;
+    color: var(--preto-fonte);
+    border-radius: 10px;
+    background-color: var(--fundo-branco);
+}
+
+.ordem__voltar-inicio:hover {
+    color: var(--vermelho-realce);
+    font-weight: 700;
+    border: 1px var(--vermelho-realce) solid;
+}
+
+
+
+/*Escrita*/
+.capitulo__titulo {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--fundo-branco);
+    text-align: center;
+    padding: 1.5em 0 1em 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--vermelho-realce);
+}
+
+.instituicao__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 1em 0 1em 0;
+}
+
+.instituicao__container__texto {
+    line-height: 1.5em;
+    text-indent: 1em;
+    margin-top: 0.2em;
+}
+
+.ordem-demolay__historia b {
+    font-weight: 600;
+}
+
+.ordem-demolay__historia em {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ordem-demolay__imagem-descricao {
+    font-size: 14px;
+    text-align: center;
+    color: var(--cinza-descricao);
+    font-style: italic;
+}
+
+.virtudes__lista__item {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2em 0 0.5em 0;
+}
+
+.virtudes__lista__texto {
+    text-align: center;
+    margin: 0 6em;
+    line-height: 1.5em;
+    word-wrap: normal;
+}
+
+.fala__cerimonia__mobile {
+    display: none;
+}
+
+
+/*Imagens*/
+
+.instituicao__container__logo {
+    height: 100%;
+    width: 40%;
+}
+
+.foto__figura {
+    width: 30%;
+    margin: 1em 1.5em 1em 1.5em;
+    border: 1px solid var(--preto-fonte);
+    border-radius: 10px;
+}
+
+.ordem__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ordem-demolay__imagem-cerimonia {
+    width: 100%;
+    border: 1px solid var(--preto-fonte);
+    border-radius: 10px;
+    margin: 1em 0 0.5em 0;
+}
+
+.virtudes__lista__cerimonia {
+    width: 70%;
+    border: 1px solid var(--preto-fonte);
+    border-radius: 10px;
+    margin: 1em 0 0.5em 0;
+}
+
+
+/*Mobile*/
+
+@media screen and (max-width: 768px) {
+    .instituicao {
+        width: auto;
+        margin: auto 0;
+        padding: 0.5em;
+    }
+
+    .instituicao__container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0.5em;
+    }
+
+    .capitulo__titulo {
+        font-size: 20px;
+    }
+
+    .instituicao__titulo,
+    .virtudes__lista__item {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .instituicao__container__texto,
+    .virtudes__lista__texto {
+        font-size: 14px;
+    }
+
+    .virtudes__lista__texto {
+        margin: 0 1em;
+    }
+
+    .virtudes__lista__cerimonia,
+    .ordem-demolay__imagem-cerimonia {
+        display: none;
+    }
+
+    .fala__cerimonia__mobile {
+        display: block;
+        margin: 1em;
+        font-size: 12px;
+        border: 1px solid var(--cinza);
+        padding: 0.5em;
+        border-radius: 10px;
+    }
+
+    .fala__cerimonia__mobile em {
+        font-weight: 300;
+    }
+
+    .ordem-demolay__imagem-descricao{
+        font-size: 12px;
+    }
+
+}
