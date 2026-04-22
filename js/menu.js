@@ -13,9 +13,6 @@ function gerarHeader() {
                 <ul class="lista__menu">
                     <li class="lista__menu__titulo">Categorias</li>
                     <li class="lista__menu__item">
-                        <a class="lista__menu__link" href="/index.html#galeria">Galeria</a>
-                    </li>
-                    <li class="lista__menu__item">
                         <a class="lista__menu__link" href="/index.html#capitulo">História do Capítulo</a>
                     </li>
                     <li class="lista__menu__item">
@@ -45,9 +42,7 @@ function gerarHeader() {
 
             <ul class="lista_menu_desktop">
 
-                <li class="lista_menu_desktop__item">
-                    <a class="lista__menu__link" href="/index.html#galeria">Galeria</a>
-                </li>
+                
                 <li class="lista_menu_desktop__item">
                     <a class="lista__menu__link" href="/index.html#capitulo">História do Capítulo</a>
                 </li>
