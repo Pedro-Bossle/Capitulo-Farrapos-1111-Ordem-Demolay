@@ -1,377 +1,517 @@
-<html>
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farrapos Nº1111</title>
-    <meta name="description" content="Demolay">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>A Ordem DeMolay | Capítulo Farrapos Nº1111</title>
+    <meta name="description"
+        content="Conheça a Ordem DeMolay: sua história, o fundador Frank Sherman Land, Jacques DeMolay, as sete virtudes e os três baluartes.">
+    <meta name="theme-color" content="#123B2A">
+    <link rel="icon" type="image/svg+xml" href="assets/Logo-Farrapos.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="shortcut icon" type="imagex/png" href="assets/Logo-Farrapos.svg">
-
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
-    <script src="js/menu.js"></script>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
-    <!--
-        <div class="container">
-            <a href="https://sis.demolaybrasil.org.br/login" target="_blank" class="container__link">Entrar</a>
-            <a href="https://form.jotform.com/capitulo1111/quero-ser-demolay" target="_blank"
-                class="container__link">Participar</a>
+    <header class="cabecalho" data-cabecalho>
+        <div class="cabecalho__interno">
+            <a class="marca" href="index.html" aria-label="Capítulo Farrapos Nº1111 — início">
+                <img src="assets/Logo-Farrapos.svg" alt="" class="marca__logo" width="44" height="37">
+                <span class="marca__nome">Farrapos <span class="marca__numero">Nº1111</span></span>
+            </a>
+
+            <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu-principal"
+                data-menu-botao>
+                <span class="menu-botao__barras" aria-hidden="true"></span>
+                <span class="sr-only">Abrir menu</span>
+            </button>
+
+            <nav class="navegacao" id="menu-principal" aria-label="Principal" data-menu>
+                <ul class="navegacao__lista">
+                    <li><a class="navegacao__link" href="index.html#capitulo">O Capítulo</a></li>
+                    <li><a class="navegacao__link ativo" href="ordem.html" aria-current="page">A Ordem</a></li>
+                    <li><a class="navegacao__link" href="index.html#ser-membro">Como participar</a></li>
+                    <li><a class="navegacao__link" href="index.html#localizacao">Localização</a></li>
+                    <li><a class="navegacao__link" href="index.html#faq">Dúvidas</a></li>
+                </ul>
+                <a class="botao botao--ouro navegacao__cta" href="https://form.jotform.com/capitulo1111/quero-ser-demolay"
+                    target="_blank" rel="noopener">Quero participar</a>
+            </nav>
         </div>
-  -->
+    </header>
 
-
-
-    <!-- Historia do Capítulo -->
-    <section id="capitulo" class="instituicao ordem-demolay__historia">
-        <h2 class="capitulo__titulo">A Ordem Demolay</h2>
-        <div class="instituicao__container">
-            <div>
-                <h2 class="instituicao__titulo">O que é a Ordem Demolay?</h2>
-                <p class="instituicao__container__texto">A Ordem Demolay é o segundo maior grupo de jovens existente no
-                    mundo,
-                    superado apenas pelos escoteiros;
-                    A Ordem Demolay é uma ordem iniciática, ou seja, integra membros a partir
-                    de uma cerimônia de iniciação; e toma como membros jovens de 12 à 21 anos
-                    que buscam se tornar homens, filhos, amigos e cidadãos de bons costumes e
-                    virtudes por meio de ensinamentos e práticas alegóricas com intuito de passar
-                    mensagens e aprendizados com lições filosóficas; e também ações
-                    filantrópicas para auxílio dos necessitados, como arrecadações e ações para o
-                    bem do ambiente social em que estão inseridos.
-                </p>
-                <h2 class="instituicao__titulo">Cerimônias?</h2>
-                <p class="instituicao__container__texto">Cerimônia é o termo utilizado para designar as reuniões
-                    semanais de um
-                    Capítulo, sempre feitas seguindo o Ritual Demolay. Dentro da Ordem, temos
-                    Cerimônias abertas aos pais e amigos do capítulo e até pessoas de fora, que
-                    sempre são feitas em datas comemorativas como por exemplo o dia dos Pais
-                    (Cerimônia do Abraço) e dia das Mães (Cerimônia das Flores).
-
-                    <img class="ordem-demolay__imagem-cerimonia" src="assets/fala-cerimonia-flores.png" alt="Trecho retirado da cerimonia em homenagem ao dia das mães: Queremos que cada um de vocês retire uma flor deste Altar. Se sua mãe já passou desta vida para a outra,
-                    vocês escolherá a flor branca e a guardará, sempre sagrada, em memória delas. Que possa a presença desta flor sempre despertar as delicadas lembranças dela e fortalecê-lo novamente em seus esforços para ser digno
-                    das esperanças e aspirações dela por você. ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> Queremos que cada um de
-                        vocês retire uma flor deste Altar. Se sua mãe já passou desta vida para a outra,
-                        vocês escolherá a flor branca e a guardará, sempre sagrada, em memória delas. Que possa a
-                        presença desta flor sempre despertar as delicadas lembranças dela e fortalecê-lo novamente em
-                        seus esforços para ser digno das esperanças e aspirações dela por você.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Flores em homenagem ao Dia
-                    das Mães</p>
-
-                <img class="ordem-demolay__imagem-cerimonia" src="assets/fala-cerimonia-abraco.png" alt="Trecho retirado da cerimonia em homenagem ao dia dos pais: Um filósofo certa vez disse que um filho é o meio mais certo de atingir-se a imortalidade. Também foi
-                    dito que um pai quer deixar a melhor parte dele para o mundo seu filho. Poder tomar seu filho nas mãos quando for pequenino; passear com ele no inverno; mostrá-lo a glória de Deus, as maravilhas da natureza;
-                    ouvir suas confissões quando for mais velho; guiá-lo pelo caminho que seguir; poder apontar com orgulho e dizer, Vê aquele Rapaz? Aquele é meu filho! Isso se passa na mente de todos - um clamor pela
-                    imortalidade.  ">
-
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> Um filósofo certa vez
-                        disse que um filho é o meio mais certo de atingir-se a imortalidade. Também foi dito que um pai
-                        quer deixar a melhor parte dele para o mundo seu filho. Poder tomar seu filho
-                        nas mãos quando for pequenino; passear com ele no inverno; mostrá-lo a glória de Deus, as
-                        maravilhas da natureza; ouvir suas confissões quando for mais velho; guiá-lo pelo caminho que
-                        seguir; poder apontar com orgulho e dizer, Vê aquele Rapaz? Aquele é meu filho! Isso se passa na
-                        mente de todos - um clamor pela imortalidade.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia do Abraço em homenagem ao Dia
-                    dos Pais</p>
-                </p>
+    <main id="conteudo">
+        <section class="hero hero--curto" aria-labelledby="hero-titulo">
+            <div class="hero__fundo" aria-hidden="true"></div>
+            <div class="hero__interno">
+                <div class="hero__texto">
+                    <h1 class="hero__titulo" id="hero-titulo">
+                        <span class="hero__linha hero__linha--pequena">A Ordem</span>
+                        <span class="hero__linha hero__linha--grande">DeMolay</span>
+                    </h1>
+                    <span class="hero__traco" aria-hidden="true"></span>
+                    <p class="hero__data">Sua história, o fundador, os Templários, as sete virtudes e os três
+                        baluartes.</p>
+                    <nav class="atalhos" aria-label="Nesta página">
+                        <a href="#o-que-e">O que é</a>
+                        <a href="#fundador">O fundador</a>
+                        <a href="#templarios">Os Templários</a>
+                        <a href="#virtudes">As virtudes</a>
+                        <a href="#baluartes">Os baluartes</a>
+                    </nav>
+                </div>
+                <div class="hero__brasao hero__brasao--demolay">
+                    <img src="assets/Logo-Demolay.svg" alt="Emblema da Ordem DeMolay" width="320" height="320">
+                </div>
             </div>
-            <img src="assets/Logo-Demolay.svg" alt="logo do capítulo farrapos número 1111 da ordem demolay"
-                class="instituicao__container__logo">
-        </div>
-    </section>
+        </section>
 
+        <!-- O que é a Ordem -->
+        <section id="o-que-e" class="secao" aria-labelledby="o-que-e-titulo">
+            <div class="secao__interno secao__interno--leitura">
+                <h2 class="secao__titulo revelar" id="o-que-e-titulo">O que é a Ordem DeMolay?</h2>
+                <p class="revelar">A Ordem DeMolay é o segundo maior grupo de jovens existente no mundo, superado apenas
+                    pelos escoteiros. É uma ordem iniciática, ou seja, integra membros a partir de uma cerimônia de
+                    iniciação, e toma como membros jovens de 12 a 21 anos que buscam se tornar homens, filhos, amigos e
+                    cidadãos de bons costumes e virtudes, por meio de ensinamentos e práticas alegóricas com intuito de
+                    passar mensagens e aprendizados com lições filosóficas; e também de ações filantrópicas para
+                    auxílio dos necessitados, como arrecadações e ações para o bem do ambiente social em que estão
+                    inseridos.</p>
 
+                <h3 class="bloco__titulo revelar">Cerimônias</h3>
+                <p class="revelar">Cerimônia é o termo utilizado para designar as reuniões semanais de um Capítulo,
+                    sempre feitas seguindo o Ritual DeMolay. Dentro da Ordem, temos cerimônias abertas aos pais e amigos
+                    do Capítulo e até a pessoas de fora, que sempre são feitas em datas comemorativas, como, por exemplo,
+                    o Dia dos Pais (Cerimônia do Abraço) e o Dia das Mães (Cerimônia das Flores).</p>
 
+                <figure class="fala revelar">
+                    <blockquote>
+                        <p>Queremos que cada um de vocês retire uma flor deste Altar. Se sua mãe já passou desta vida
+                            para a outra, você escolherá a flor branca e a guardará, sempre sagrada, em memória dela. Que
+                            possa a presença desta flor sempre despertar as delicadas lembranças dela e fortalecê-lo
+                            novamente em seus esforços para ser digno das esperanças e aspirações dela por você.</p>
+                    </blockquote>
+                    <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Flores, em homenagem ao Dia das
+                        Mães</figcaption>
+                </figure>
 
+                <figure class="fala revelar">
+                    <blockquote>
+                        <p>Um filósofo certa vez disse que um filho é o meio mais certo de atingir-se a imortalidade.
+                            Também foi dito que um pai quer deixar a melhor parte dele para o mundo: seu filho. Poder
+                            tomar seu filho nas mãos quando for pequenino; passear com ele no inverno; mostrar-lhe a
+                            glória de Deus, as maravilhas da natureza; ouvir suas confissões quando for mais velho;
+                            guiá-lo pelo caminho que seguir; poder apontar com orgulho e dizer: “Vê aquele rapaz? Aquele
+                            é meu filho!” Isso se passa na mente de todos — um clamor pela imortalidade.</p>
+                    </blockquote>
+                    <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia do Abraço, em homenagem ao Dia dos Pais
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
 
-    <!-- Historia da Ordem -->
-    <section id="ordem" class="instituicao ordem-demolay__historia">
-        <h2 class="capitulo__titulo">História da nossa Ordem</h2>
-        <div class="instituicao__container">
-            <img src="assets/Frank-s-land.png" alt="Retrato de Frank Shermann Land, fundador da Ordem Demolay"
-                class="foto__figura">
+        <!-- O fundador -->
+        <section id="fundador" class="secao secao--pedra" aria-labelledby="fundador-titulo">
+            <div class="secao__interno retrato">
+                <figure class="retrato__foto revelar">
+                    <img src="assets/Frank-s-land.png" alt="Retrato de Frank Sherman Land, fundador da Ordem DeMolay"
+                        loading="lazy">
+                    <figcaption>Frank Sherman Land</figcaption>
+                </figure>
+                <div class="retrato__texto">
+                    <h2 class="secao__titulo revelar" id="fundador-titulo">O fundador</h2>
+                    <p class="revelar">A Ordem foi criada por Frank Sherman Land no ano de 1919. Durante a infância de
+                        Frank, seus pais se divorciaram e ele passou a viver apenas com a mãe, a avó e as irmãs, e
+                        sentia a falta de uma figura paterna. Desde muito novo, mostrava-se um rapaz exemplar na
+                        comunicação e mantinha um clube religioso no porão de casa.</p>
+                    <p class="revelar">Em seu vigésimo primeiro aniversário, foi convidado para ingressar na Maçonaria,
+                        por meio de um convite de seu falecido avô.</p>
+                    <p class="revelar">Passado algum tempo, Frank recebe uma ligação de um irmão maçom informando que um
+                        jovem havia perdido o seu pai e que necessitava de uma figura de inspiração. Sabendo disso,
+                        Frank decide apadrinhar o jovem, levando-o de um lado para o outro. O jovem, muito curioso,
+                        começou a se interessar pelos assuntos estudados por Frank, um deles sendo <strong>a Ordem dos
+                            Pobres Cavaleiros de Cristo e do Templo de Salomão (Templários)</strong>. Então decidiu criar
+                        um clube para jovens junto do rapaz, que também chamou seus amigos para ouvir os ensinamentos de
+                        Frank.</p>
+                    <p class="revelar">Passado mais um tempo, durante o período da Segunda Guerra Mundial, muitos jovens
+                        DeMolays lutaram na guerra, fazendo a Ordem ter um grande desfalque de membros e quase fechar as
+                        portas. Porém, com muito esforço, os membros conseguiram reerguer a Ordem por meio de iniciações
+                        e trabalho árduo.</p>
+                </div>
+            </div>
+        </section>
 
-            <div class="ordem__container">
-                <h2 class="instituicao__titulo">O Fundador:</h2>
-                <p class="instituicao__container__texto">Criada por Frank Sherman Land no ano de 1919.
-                    Durante a infância de Frank, seus pais se divorciaram e ele passou a viver
-                    apenas com a mãe, a avó e as irmãs e sentia a falta de uma figura paterna.
-                    Desde muito novo se mostrava um rapaz exemplar com a comunicação e
-                    mantinha um clube religioso no porão de casa
-                </p>
-                <p class="instituicao__container__texto">Em seu vigésimo primeiro aniversário, foi convidado para
-                    ingressar na maçonaria, por meio de um convite de seu falecido avô.
-                </p>
-                <p class="instituicao__container__texto">Passando-se o tempo, Frank recebe uma ligação de um irmão maçom
-                    informando que um jovem havia perdido o seu pai na guerra e que o mesmo necessitava de uma figura de
-                    inspiração. Sabendo disso, Frank decide
-                    apadrinhar o jovem, levando-o de um lado para o outro. O jovem muito curioso, começou a se
-                    interessar pelos assuntos estudados por
-                    Frank, um deles sendo a <b>A Ordem dos Pobres Cavaleiros de Cristo e do Templo de Salomão
-                        (Templários)</b>,
-                    que, então decidiu criar um clube para
-                    jovens junto do rapaz, que também chamou seus amigos para ouvir os ensinamentos de Frank.
-                </p>
-                <p class="instituicao__container__texto">Passando-se mais um tempo, durante o período da Segunda Guerra
-                    Mundial, muitos jovens Demolays lutaram na guerra, fazendo a ordem ter um grande
-                    desfalque de membros e quase fechar as portas. Porém, com muito esforço, os membros conseguiram
-                    reerguer a ordem por
-                    meio de Iniciações e trabalho árduo.
-                </p>
+        <!-- Os Templários -->
+        <section id="templarios" class="secao" aria-labelledby="templarios-titulo">
+            <div class="secao__interno retrato retrato--invertido">
+                <figure class="retrato__foto revelar">
+                    <img src="assets/jacques-demolay" alt="Pintura representando Jacques DeMolay com seu manto de cavaleiro"
+                        loading="lazy">
+                    <figcaption>Jacques DeMolay</figcaption>
+                </figure>
+                <div class="retrato__texto">
+                    <h2 class="secao__titulo revelar" id="templarios-titulo">Os Templários</h2>
+                    <h3 class="bloco__titulo revelar">O que é DeMolay?</h3>
+                    <p class="revelar">Como dito anteriormente, os jovens tiveram muito interesse nos assuntos estudados
+                        por Frank, sendo um deles a Ordem do Templo. Ao conhecerem a história de martírio do último
+                        Grão-Mestre da Ordem do Templo, <strong>Jacques DeMolay</strong>, inspiraram-se pela
+                        <strong>determinação, coragem e companheirismo</strong> dele ao resistir anos sob tortura do rei
+                        da época, que, tomado por ganância, condenou Jacques e os Templários à fogueira. Assim, a
+                        história do guerreiro foi tomada como exemplo de companheirismo e fidelidade a seus ideais e
+                        companheiros, e também como um exemplo de <strong>luta contra a tirania e o
+                            despotismo</strong>.</p>
+                    <p class="revelar">O nome “DeMolay” refere-se ao vilarejo em que Jacques nasceu, Molay, no Reino de
+                        França, em meados de 1243/1244 e 1249/1250. Era comum na época tomar o nome do seu vilarejo
+                        junto ao seu: “De Molay”.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- As sete virtudes: Cerimônia das Luzes -->
+        <section id="virtudes" class="secao secao--escura" aria-labelledby="virtudes-titulo">
+            <div class="secao__interno secao__interno--leitura">
+                <h2 class="secao__titulo revelar" id="virtudes-titulo">As virtudes da Ordem DeMolay</h2>
+                <p class="secao__intro revelar">Na Cerimônia das Luzes, cada uma das sete velas do Altar representa uma
+                    virtude. Role a página para acendê-las.</p>
+
+                <ol class="velas">
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">1ª</span> Amor Filial</h3>
+                            <p>Amor à família, aos pais, aos irmãos e amigos.</p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A primeira vela simboliza o amor entre pais e filhos, aquele amor que já existia
+                                        antes mesmo de nascermos, que permanece conosco durante toda a nossa vida e que
+                                        nos seguirá até mesmo além do túmulo. Os sábios chamavam este amor de “ágape”,
+                                        amor sem nenhuma outra razão, senão a de existir.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">2ª</span> Reverência pelas coisas
+                                sagradas</h3>
+                            <p>Respeito às diversas religiões existentes, mesmo diferindo da minha.</p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A segunda vela é o emblema da reverência por tudo aquilo que é sagrado. Um jovem,
+                                        atravessando o limiar da Ordem DeMolay pela primeira vez, professa uma profunda e
+                                        permanente fé em um vivo e verdadeiro Deus. Sem esta inabalável fé e a graça de
+                                        nosso Pai Celestial, nossos trabalhos seriam em vão.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">3ª</span> Cortesia</h3>
+                            <p>Cortesia para com os jovens, idosos, homens e mulheres; cortesia para com o próximo.</p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A terceira vela representa a Cortesia, uma Cortesia que transcende as amizades;
+                                        que alcança os desconhecidos, os mais velhos e todos os homens. É esta Cortesia
+                                        que traz um sentimento caloroso e um sorriso que torna esta vida mais agradável
+                                        para o próximo, pois ilumina o caminho diante de nós.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">4ª</span> Companheirismo</h3>
+                            <p>Assim como Jacques DeMolay, que nunca entregou seus companheiros mesmo sob a pressão da
+                                Inquisição, juramos ser irmãos a todo momento. “Um cavaleiro que serve melhor ao seu
+                                irmão serve melhor a si mesmo” — lema dos cavaleiros da Távola Redonda.</p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A quarta vela, no centro de nossas sete, representa simbolicamente o
+                                        Companheirismo. Milhões de jovens como nós já se ajoelharam neste Altar
+                                        simbólico e se dedicaram aos mesmos elevados princípios de boa filiação e boa
+                                        cidadania. Enquanto permanecermos fiéis a essas promessas, enquanto existir a
+                                        Ordem DeMolay — seremos um.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">5ª</span> Fidelidade</h3>
+                            <p>Fiel aos nossos companheiros, aos nossos amigos, aos nossos relacionamentos; digno da
+                                confiança alheia.</p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A quinta vela representa simplesmente a Fidelidade. Um DeMolay não pode nunca, por
+                                        motivo justificado ou não, ser falso a seus votos, suas promessas, seus amigos,
+                                        seu Deus. Ele é chamado diariamente a defender os baluartes e preceitos da Ordem,
+                                        de modo que jamais falhe como líder e como homem.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">6ª</span> Pureza</h3>
+                            <p>A pureza de ações, pensamentos e palavras. Uma mente sã em um corpo saudável é o melhor
+                                preparo para uma maioridade pura, da qual dependerá uma cidadania pura.</p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A sexta vela é o símbolo da Pureza, não a Pureza do corpo, a qual todos
+                                        praticamos, mas a Pureza de todo o pensamento, palavra e ação. Somente puro pode
+                                        um DeMolay ser digno representante da pureza de nossos ensinamentos.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+
+                    <li class="vela">
+                        <span class="vela__luz" aria-hidden="true"><span class="vela__chama"></span><span
+                                class="vela__cera"></span></span>
+                        <div class="vela__conteudo">
+                            <h3 class="vela__titulo"><span class="vela__ordem">7ª</span> Patriotismo</h3>
+                            <p>Honrar o seu país e a sua bandeira, não como uma ideia política, mas tendo orgulho de seu
+                                país. <em>“É oportuno que esta bandeira seja entregue à guarda desses jovens rapazes que
+                                    logo se tornarão cidadãos e que por sua honra deverão defender esta bandeira, ou nos
+                                    campos de batalha ou na perpétua luta dos bons cidadãos contra o mal. Em todas as
+                                    crises da história dessa nação nós convocamos nossos jovens e, graças a Deus, eles
+                                    nunca deixaram de responder.”</em> — Cerimônia de Abertura dos Trabalhos Públicos.
+                            </p>
+                            <figure class="fala fala--escura">
+                                <blockquote>
+                                    <p>A última vela é o emblema do patriotismo. Talvez nós nunca sejamos chamados a
+                                        defender nossa pátria no campo de batalha, porém cada dia nos apresenta novas
+                                        oportunidades para nos firmarmos como bons e corretos cidadãos, a serviço
+                                        daquela querida bandeira e de nossa reverenciada pátria.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Orador">OR</abbr>, na Cerimônia das Luzes</figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Os três baluartes -->
+        <section id="baluartes" class="secao" aria-labelledby="baluartes-titulo">
+            <div class="secao__interno">
+                <h2 class="secao__titulo secao__titulo--centro revelar" id="baluartes-titulo">Os baluartes da Ordem
+                    DeMolay</h2>
+                <p class="secao__intro secao__intro--centro revelar">Na Cerimônia de Abertura dos Trabalhos Públicos,
+                    três símbolos são colocados sobre o Altar.</p>
+
+                <div class="baluartes">
+                    <article class="baluarte revelar">
+                        <svg class="baluarte__icone" viewBox="0 0 48 48" aria-hidden="true">
+                            <path d="M10 44V5" />
+                            <path d="M10 7c8-4 14 4 28 0v18c-14 4-20-4-28 0" />
+                        </svg>
+                        <h3 class="baluarte__titulo">Liberdade Civil</h3>
+                        <p>Representada pela bandeira de nosso país. Como dito anteriormente, honraremos e defenderemos a
+                            nossa pátria independentemente da situação.</p>
+                        <details class="trecho">
+                            <summary>Ler o trecho da cerimônia</summary>
+                            <figure class="fala">
+                                <blockquote>
+                                    <p>Apresentamos a bandeira no Altar como um símbolo da Liberdade Civil, sem a qual
+                                        não poderia haver Liberdade Religiosa. É oportuno que esta bandeira seja entregue
+                                        à guarda desses jovens rapazes que logo se tornarão cidadãos e que por sua honra
+                                        deverão defender esta bandeira, ou nos campos de batalha ou na perpétua luta dos
+                                        bons cidadãos contra o mal. Em todas as crises da história dessa nação nós
+                                        convocamos nossos jovens e, graças a Deus, eles nunca deixaram de responder. O
+                                        verde, o amarelo, o azul e o branco em nossa bandeira representam as riquezas e a
+                                        grandiosidade de nossa pátria, que devemos aos nossos antepassados que lutaram
+                                        para que pudéssemos desfrutar de liberdade. Nós, por isso, a apresentamos em
+                                        nosso Altar como uma sentinela a nos guardar, enquanto a veneramos, e eu,
+                                        solenemente, recomendo aos membros deste Capítulo que nunca deixem de protegê-la
+                                        e que, fora das paredes deste Capítulo, sempre vivam de maneira digna desta
+                                        sagrada bandeira.</p>
+                                </blockquote>
+                                <figcaption><abbr title="2º Conselheiro">2ºC</abbr>, na Cerimônia de Abertura dos
+                                    Trabalhos Públicos</figcaption>
+                            </figure>
+                        </details>
+                    </article>
+
+                    <article class="baluarte revelar">
+                        <svg class="baluarte__icone" viewBox="0 0 48 48" aria-hidden="true">
+                            <path d="M24 12c-5-4-12-4-18-3v29c6-1 13-1 18 3 5-4 12-4 18-3V9c-6-1-13-1-18 3Z" />
+                            <path d="M24 12v29" />
+                        </svg>
+                        <h3 class="baluarte__titulo">Liberdade Religiosa</h3>
+                        <p>Representada pelo <strong>livro sagrado</strong>. Não impomos um credo específico em nossas
+                            cerimônias: colocamos uma Bíblia apenas para representar a palavra de um Deus. Caso haja
+                            jovens de outras religiões, eles podem levar os seus respectivos livros e colocá-los junto
+                            em nosso Altar.</p>
+                        <details class="trecho">
+                            <summary>Ler o trecho da cerimônia</summary>
+                            <figure class="fala">
+                                <blockquote>
+                                    <p>Abrimos a Bíblia Sagrada, o alicerce de nossa fé em dias eternos, sobre o Altar
+                                        como um símbolo da Liberdade Religiosa, que é um direito inalienável de todas as
+                                        pessoas. Sobre este Altar não está o emblema de um credo ou o depósito de
+                                        qualquer sistema de teologia, mas a palavra de um Deus vivo e verdadeiro, cuja
+                                        Paternidade Universal ensina a inevitável lição da Fraternidade de todos os Seus
+                                        filhos. Sem a oportunidade de adorar a Deus de acordo com os ditames da nossa
+                                        própria consciência, nossa liberdade seria falsa e, por isso, como alicerce de
+                                        todas as outras liberdades, nós colocamos a palavra de Deus sobre nosso Altar, e
+                                        eu, solenemente, recomendo aos membros deste Capítulo que sempre caminhem à luz
+                                        de seus ensinamentos e nunca se mantenham longe de suas páginas abertas.</p>
+                                </blockquote>
+                                <figcaption><abbr title="1º Conselheiro">1ºC</abbr>, na Cerimônia de Abertura dos
+                                    Trabalhos Públicos</figcaption>
+                            </figure>
+                        </details>
+                    </article>
+
+                    <article class="baluarte revelar">
+                        <svg class="baluarte__icone" viewBox="0 0 48 48" aria-hidden="true">
+                            <rect x="8" y="30" width="32" height="8" rx="1" />
+                            <rect x="11" y="21" width="27" height="9" rx="1" />
+                            <rect x="9" y="12" width="29" height="9" rx="1" />
+                            <path d="M6 42h36" />
+                        </svg>
+                        <h3 class="baluarte__titulo">Liberdade Intelectual</h3>
+                        <p>Representada pelos livros escolares no Altar. Simboliza a defesa das escolas públicas, o berço
+                            da cidadania. Estamos sempre em prol de ajudar escolas necessitadas.</p>
+                        <details class="trecho">
+                            <summary>Ler o trecho da cerimônia</summary>
+                            <figure class="fala">
+                                <blockquote>
+                                    <p>Do meu posto no Leste, emblema da Manhã da Vida, colocamos os Livros Escolares no
+                                        Altar como um símbolo da Liberdade Intelectual, sem a qual não poderíamos ter
+                                        Liberdade Civil nem Religiosa. Eles são especialmente o símbolo do grande sistema
+                                        de escolas públicas de nosso país, a fundação daquele esclarecimento universal
+                                        que é a glória coroada de nossas instituições. O apoio devotado às nossas escolas
+                                        públicas é um ensinamento cardeal da Ordem DeMolay. Opomo-nos fervorosamente a um
+                                        mesmo prédio comportar uma escola, uma igreja e uma sede do governo civil.
+                                        Liberdade Civil, Religiosa e Intelectual são três fontes da grandeza de nosso
+                                        país, mas elas devem permanecer a sós, sob diferentes fundações e debaixo de
+                                        tetos separados. Esses livros, representando aqueles que são levados para as
+                                        escolas públicas por milhões de meninas e meninos todos os dias, são os símbolos
+                                        vitais de nossas liberdades, como a Bíblia Sagrada, que é a regra e guia de nossa
+                                        fé, ou a Bandeira que protege a igreja, a escola e o poder civil. Nós, por isso,
+                                        colocamos estes livros sobre o Altar, e eu, solenemente, recomendo aos membros
+                                        deste Capítulo sempre lutarem pela proteção, permanência e existência livre das
+                                        escolas públicas, a cidadela de nossa segurança e a fonte única e verdadeira da
+                                        liberdade em um governo do povo, pelo povo e para o povo.</p>
+                                </blockquote>
+                                <figcaption><abbr title="Mestre Conselheiro">MC</abbr>, na Cerimônia de Abertura dos
+                                    Trabalhos Públicos</figcaption>
+                            </figure>
+                        </details>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="chamada" aria-labelledby="chamada-titulo">
+            <div class="secao__interno chamada__interno revelar">
+                <h2 class="chamada__titulo" id="chamada-titulo">Quer viver isso de perto?</h2>
+                <p>Conheça o Capítulo Farrapos Nº1111 e veja como participar das nossas reuniões.</p>
+                <div class="hero__acoes">
+                    <a class="botao botao--ouro" href="https://form.jotform.com/capitulo1111/quero-ser-demolay"
+                        target="_blank" rel="noopener">Quero participar</a>
+                    <a class="botao botao--contorno" href="index.html">Voltar para o início</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__interno">
+            <div class="rodape__marca">
+                <img src="assets/Logo-Farrapos.svg" alt="" width="72" height="60">
+                <p class="rodape__nome">Capítulo Farrapos Nº1111</p>
+                <p class="rodape__texto">da Ordem DeMolay, em Caxias do Sul — RS</p>
+            </div>
+
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Parceiros e apoiadores</h2>
+                <ul class="parceiros">
+                    <li>
+                        <a class="parceiro" href="https://www.demolaybrasil.org.br/" target="_blank" rel="noopener">
+                            <img src="assets/logo-demolaybrasil.png" alt="" width="36" height="36" loading="lazy">
+                            DeMolay Brasil</a>
+                    </li>
+                    <li>
+                        <a class="parceiro" href="https://www.instagram.com/demolayrs/" target="_blank" rel="noopener">
+                            <img src="assets/logo-demolayrs.png" alt="" width="36" height="36" loading="lazy">
+                            DeMolay RS</a>
+                    </li>
+                    <li>
+                        <a class="parceiro" href="https://www.heraclitovictoria.com.br/" target="_blank"
+                            rel="noopener">
+                            <img src="assets/Logo-HV.svg" alt="" width="36" height="36" loading="lazy">
+                            A∴R∴L∴S∴ Heráclito Victória Nº3168</a>
+                    </li>
+                    <li>
+                        <span class="parceiro">
+                            <img src="assets/Logo-alumni.png" alt="" width="36" height="36" loading="lazy">
+                            Colégio Alumni 20 de Setembro</span>
+                    </li>
+                    <li>
+                        <span class="parceiro">
+                            <img src="assets/bandeira-farrapos.svg" alt="" width="36" height="36" loading="lazy">
+                            Castelo Escudeiro 20 de Setembro</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Contato</h2>
+                <a class="parceiro" href="mailto:capitulo1111@demolaybrasil.org.br">
+                    <svg class="parceiro__icone" viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <path d="m3 7 9 6 9-6" />
+                    </svg>
+                    capitulo1111@demolaybrasil.org.br</a>
+                <a class="parceiro" href="https://instagram.com/farrapos1111" target="_blank" rel="noopener">
+                    <svg class="parceiro__icone" viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="3" y="3" width="18" height="18" rx="5" />
+                        <circle cx="12" cy="12" r="4" />
+                        <circle cx="17.5" cy="6.5" r=".6" />
+                    </svg>
+                    @farrapos1111</a>
             </div>
         </div>
-    </section>
+    </footer>
 
-    <section id="capitulo" class="instituicao ordem-demolay__historia">
-        <h2 class="capitulo__titulo">Os Templários</h2>
-        <div class="instituicao__container">
-            <div>
-                <h2 class="instituicao__titulo">O que é Demolay?</h2>
-                <p class="instituicao__container__texto">Como dito anteriormente, os jovens tiveram muito interesse nos
-                    assuntos
-                    estudados por Frank, sendo um deles a Ordem do Templo, e, ao conhecerem a
-                    história de martírio do Último Grão-Mestre da Ordem do Templo, <b>Jacques
-                        DeMolay</b>, se inspiraram pela <b>determinação, coragem e companheirismo</b> do
-                    mesmo ao resistir anos sob tortura do Rei da época, que tomado por ganância
-                    condenou Jacques e os Templários à fogueira, assim a história do guerreiro foi
-                    tomada como exemplo de companheirismo e fidelidade a seus ideias e
-                    companheiros, e também como um exemplo de <b>luta contra a tirania e
-                        despotismo</b>.
-                </p>
-                <p class="instituicao__container__texto">O nome “DeMolay” refere-se ao vilarejo que Jacques nasceu,
-                    Molay, no Reino de França em meados de 1243/1244 e 1249/1250. Sendo comum na época tomar
-                    o nome de seu vilarejo junto ao seu “De Molay”.
-            </div>
-            <img src="assets/jacques-demolay" alt="Pintura representando jacques demolay e seu manto de cavaleiro"
-                class="foto__figura">
-        </div>
-    </section>
-
-    <section id="capitulo" class="instituicao ordem-demolay__historia instituicao__virtudes">
-        <h2 class="capitulo__titulo">As Virtudes da Ordem Demolay</h2>
-        <div class="ordem__container">
-            <ul class="virtudes__lista">
-
-                <li class="virtudes__lista__item">1ª - Amor Filial</li>
-                <p class="virtudes__lista__texto">Amor à Família, aos pais, aos irmãos e amigos;</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-1vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A primeira vela simboliza
-                        o amor entre pais e filhos, aquele amor que já existia antes mesmo de nascermos,
-                        que permanece conosco durante toda a nossa vida e que nos seguirá até mesmo além do túmulo. Os
-                        sábios chamavam este amor de “ágape”, amor sem nenhuma outra razão, senão a de existir.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-
-                <li class="virtudes__lista__item">2ª - Reverência pelas coisas Sagradas</li>
-                <p class="virtudes__lista__texto">Respeito as diversas religiões existentes, mesmo diferindo da minha;
-                </p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-2vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A segunda vela é o
-                        emblema da reverência por tudo aquilo que é sagrado. Um jovem, atravessando o limiar
-                        da Ordem DeMolay pela primeira vez, professa uma profunda e permanente fé, em um vivo e
-                        verdadeiro Deus. Sem esta inabalável fé e a graça de nosso Pai Celestial, nossos trabalhos
-                        seriam em vão.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-
-                <li class="virtudes__lista__item">3ª - Cortesia</li>
-                <p class="virtudes__lista__texto">Cortesia para com os jovens, idosos, homens e mulheres, cortesia para
-                    com o próximo;</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-3vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A terceira vela
-                        representa a Cortesia, uma Cortesia que transcende as amizades; que alcança os
-                        desconhecidos, os mais velhos e todos os homens. É esta Cortesia que traz um sentimento
-                        caloroso, e um sorriso que torna esta vida mais agradável para o próximo, pois ilumina o caminho
-                        diante de nós.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-
-                <li class="virtudes__lista__item">4ª - Companheirismo</li>
-                <p class="virtudes__lista__texto">Assim como Jacques DeMolay, que nunca entregou seus companheiros mesmo
-                    sob a pressão da Inquisição,
-                    juramos sermos irmãos a todo momento; "Um cavaleiro que serve o melhor ao seu irmão, serve melhor à
-                    si mesmo" - Lema dos cavaleiros da Távola Redonda;</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-4vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A quarta vela, no centro
-                        de nossas sete, representa simbolicamente o Companheirismo. Milhões de jovens
-                        como nós, já se ajoelharam neste Altar simbólico e se dedicaram aos mesmos elevados princípios
-                        de boa filiação e boa cidadania. Enquanto permanecermos fiéis a essas promessas, enquanto
-                        existir a
-                        Ordem DeMolay - seremos um.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-
-                <li class="virtudes__lista__item">5ª - Fidelidade</li>
-                <p class="virtudes__lista__texto">Fiel à nossos companheiros, nossos amigos, nossos relacionamentos;
-                    Digno de confiança alheia; </p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-5vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A quinta vela representa
-                        simplesmente a Fidelidade. Um DeMolay não pode nunca, por motivo justificado ou não, ser falso a
-                        seus votos, suas promessas, seus amigos, seu Deus. Ele é chamado diariamente a defender os
-                        baluartes e preceitos da Ordem, de modo que jamais falhe como líder e como homem.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-
-                <li class="virtudes__lista__item">6ª - Pureza</li>
-                <p class="virtudes__lista__texto">A pureza de ações, pensamentos e palavras; Uma mente sã em um corpo
-                    saudável é o melhor preparo para uma maioridade pura, da qual dependerá uma cidadania pura;</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-6vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A sexta vela é o símbolo
-                        da Pureza, não a Pureza do corpo, a qual todos praticamos, mas a Pureza de todo o
-                        pensamento, palavra e ação. Somente puro, pode um DeMolay ser digno representante da pureza de
-                        nossos ensinamentos.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-
-                <li class="virtudes__lista__item">7ª - Patriotismo</li>
-                <p class="virtudes__lista__texto">Honrar o seu país, a sua bandeira, não como uma ideia política, mas
-                    ter orgulho de seu país; <em>"É oportuno que esta bandeira seja entregue à
-                        guarda desses jovens rapazes que logo se tornarão cidadãos e que por sua honra deverão defender
-                        esta bandeira, ou nos campos de batalha ou na
-                        perpétua luta dos bons cidadãos contra o mal. Em todas as crises da história dessa nação nós
-                        convocamos nossos jovens e, graças a Deus, eles nunca
-                        deixaram de responder."</em> - Cerimônia de Abertura dos Trabalhos Públicos</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-luzes-7vela.png"
-                    alt="Trecho retirado da cerimonia das luzes sobre a virtude:  ">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>OR</b><em> A última vela é o emblema
-                        do patriotismo. Talvez, nós nunca sejamos chamados a defender nossa pátria no
-                        campo de batalha, porém cada dia nos apresenta novas oportunidades para nos firmarmos como bons
-                        e corretos cidadãos, a serviço daquela querida bandeira e de nossa reverenciada pátria.
-                    </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia das Luzes</p>
-            </ul>
-        </div>
-    </section>
-    <section id="capitulo" class="instituicao ordem-demolay__historia instituicao__virtudes instituicao__baluartes">
-        <h2 class="capitulo__titulo">Os Baluartes da Ordem Demolay</h2>
-        <div class="ordem__container">
-            <ul class="baluartes__lista">
-
-                <li class="virtudes__lista__item">Liberdade Civil</li>
-                <p class="virtudes__lista__texto">Representada pela bandeira de nosso pais, como dito anteriormente,
-                    honraremos e defenderemos a nossa pátria independente da situação;</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-abertura-bandeira.png"
-                    alt="Trecho retirado da cerimonia das de abertura se referindo a bandeira nacional">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>2ºC</b><em> Apresentamos a bandeira
-                        no Altar, como um símbolo da Liberdade Civil, sem a qual não poderia
-                        haver Liberdade Religiosa. É oportuno que esta bandeira seja entregue à guarda desses jovens
-                        rapazes que logo se tornarão cidadãos e que por sua honra deverão defender esta bandeira, ou
-                        nos campos de batalha ou na perpétua luta dos bons cidadãos contra o mal. Em todas as crises da
-                        história dessa nação nós convocamos nossos jovens e, graças a Deus, eles nunca deixaram de
-                        responder. O verde, o amarelo, o azul e o branco em nossa bandeira representam as riquezas e a
-                        grandiosidade de nossa pátria que devemos aos nossos antepassados que lutaram para que
-                        pudéssemos desfrutar de liberdade. Nós, por isso, a apresentamos em nosso Altar, como uma
-                        sentinela a nos guardar, enquanto a veneramos e eu, solenemente, recomendo aos membros deste
-                        Capítulo que nunca deixem de protegê-la, e que, fora das paredes deste Capítulo, sempre vivam de
-                        maneira digna desta sagrada bandeira. </em></p>
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia de Abertura dos Trabalhos
-                    Públicos</p>
-
-                <li class="virtudes__lista__item">Liberdade Religiosa</li>
-                <p class="virtudes__lista__texto">Representada pelo o <b>livro sagrado</b>, não impomos um credo
-                    especifico em nossas cerimônias, colocamos uma bíblia apenas para representarmos a palavra
-                    de um Deus, caso haja garotos de outras religiões, eles podem levar os seus
-                    livros respetivos e colocar junto em nosso altar;
-                </p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-abertura-biblia.png"
-                    alt="Trecho retirado da cerimonia das de abertura se referindo ao livro sagrado">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>1ºC</b><em> Abrimos a Bíblia
-                        Sagrada, o alicerce de nossa fé em dias eternos, sobre o Altar como um símbolo da
-                        Liberdade Religiosa que é um direito inalienável de todas as pessoas. Sobre este Altar não está
-                        o emblema de um credo ou o depósito de qualquer sistema de teologia, mas a palavra de um Deus
-                        vivo e verdadeiro, cuja Paternidade Universal ensina a inevitável lição da Fraternidade de todos
-                        os Seus filhos. Sem a oportunidade de adorar a Deus de acordo com os ditames da nossa própria
-                        consciência, nossa liberdade seria falsa e, por isso, como alicerce de todas as outras
-                        liberdades, nós colocamos a palavra de Deus sobre nosso Altar e eu, solenemente recomendo aos
-                        membros deste Capítulo que sempre caminhem a luz de seus ensinamentos e nunca se mantenham longe
-                        de suas páginas abertas.
-                    </em></p>
-
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia de Abertura dos Trabalhos
-                    Públicos</p>
-
-                <li class="virtudes__lista__item">Liberdade Intelectual</li>
-                <p class="virtudes__lista__texto">Representada pelos livros escolares no altar. Simboliza a defesa das
-                    escolas públicas, o berço da cidadania; Sempre estamos em prol de ajudar escolas necessitadas;</p>
-                <img class="virtudes__lista__cerimonia" src="assets/fala-cerimonia-abertura-livros.png"
-                    alt="Trecho retirado da cerimonia das de abertura se referindo aos livros escolares">
-                <p class="fala__cerimonia__mobile instituicao__container__texto"><b>MC</b><em> Do meu posto no Leste,
-                        emblema da Manhã da Vida, colocamos os Livros Escolares no Altar como um símbolo da Liberdade
-                        Intelectual, sem a qual não poderíamos ter
-                        Liberdade Civil nem Religiosa. Eles são especialmente o símbolo do grande sistema de escolas
-                        públicas de nosso país, a fundação daquele esclarecimento universal que é a glória coroada de
-                        nossas instituições. O apoio devotado às nossas escolas públicas é um ensinamento cardeal da
-                        Ordem DeMolay. Opomo-nos fervorosamente a um mesmo prédio comportar uma escola, uma igreja e uma
-                        sede do governo civil. Liberdade
-                        Civil, Religiosa e Intelectual são três fontes da grandeza de nosso país, mas elas devem
-                        permanecer a sós, sob diferentes fundações e debaixo de tetos separados. Esses livros,
-                        representando aqueles que são levados para as escolas públicas por milhões de meninas e meninos
-                        todos os dias, são os símbolos vitais de nossas liberdades, como a Bíblia Sagrada, que é a regra
-                        e guia de nossa fé, ou a Bandeira que protege a igreja, a escola e o poder civil. Nós, por isso,
-                        colocamos
-                        estes livros sobre o Altar e eu, solenemente, recomendo aos membros deste Capítulo sempre
-                        lutarem pela proteção, permanência e existência livre das escolas públicas, a cidadela de nossa
-                        segurança e a fonte única e verdadeira da liberdade em um governo do povo, pelo povo e para o
-                        povo. </em></p>
-
-                <p class="ordem-demolay__imagem-descricao">Trecho retirado da Cerimônia de Abertura dos Trabalhos
-                    Públicos</p>
-            </ul>
-        </div>
-    </section>
-
-    <section id="capitulo" class="ordem-demolay__historia">
-        <div class="botao__voltar">
-            <a class="ordem__voltar-inicio" href="index.html"">Voltar para o Inicio</a>
-        </div>
-    </section>
+    <a class="topo" href="#conteudo" aria-label="Voltar ao topo" data-topo>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 14 6-6 6 6" />
+        </svg>
+    </a>
 </body>
-<footer class="rodape">
-    <div class="rodape__lista__container">
-        <ul class="rodape__lista">
-            <h2 class="rodape__lista-titulo">Parceiros e Apoiadores</h2>
-            <li class="rodape__lista-item">
-                <a class="rodape__lista-link" href="https://www.demolaybrasil.org.br/" target="_blank">
-                    <img src="assets/logo-demolaybrasil.png" alt="logo demolay brasil" width="36px" height="36px">
-                    Demolay Brasil</a>
-            </li>
-            <li class="rodape__lista-item">
-                <a class="rodape__lista-link" href="https://www.instagram.com/demolayrs/" target="_blank">
-                    <img src="assets/logo-demolayrs.png" alt="logo demolay rs" width="36px" height="36px">
-                    Demolay RS</a>
-            </li>
-            <li class="rodape__lista-item">
-                <a class="rodape__lista-link" href="https://www.heraclitovictoria.com.br/" target="_blank">
-                    <img src="assets/Logo-HV.svg" alt="logo loja patrocinadora" width="36px" height="36px">
-                    A:.R:.L:.S:. Heráclito Victória Nº3168</a>
-            </li>
-            <li class="rodape__lista-item">
-                <a class="rodape__lista-link" href="#" target="_blank">
-                    <img src="assets/Logo-alumni.png" alt="logo colegio alumni" width="36px" height="36px">
-                    Colégio Alumni 20 de Setembro</a>
-            </li>
-            <li class="rodape__lista-item"><a class="rodape__lista-link" href="#" target="_blank">
-                    <img src="assets/bandeira-farrapos.svg" alt="logo castelo escudeiros" width="36px" height="36px">
-                    Castelo Escudeiro 20 de Setembro</a>
-            </li>
-        </ul>
-    </div>
-    <div class="rodape__contato__container">
-        <h2 class="rodape__contato-titulo">Contatos:</h2>
-        <a class="rodape__contato" href="mailto:capitulo1111@demolaybrasil.org.br"><img src="assets/mail-logo.png"
-                alt="icone email" width="36px" height="36px">capitulo1111@demolaybrasil.org.br</a>
-    </div>
-</footer>
 
 </html>
